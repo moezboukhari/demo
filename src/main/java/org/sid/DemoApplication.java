@@ -16,7 +16,6 @@ private ContactRepository contactRepository;
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-
 	@Override
 	public void run(String... args) throws Exception {
 		DateFormat df=new SimpleDateFormat("DD/MM/YYYY");
